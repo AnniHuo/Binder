@@ -1,0 +1,4 @@
+name: envGEOG0005
+channels:
+  - defaults
+prefix: /Applications/anaconda3/envs/envGEOG0005
