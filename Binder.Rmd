@@ -1,0 +1,10 @@
+```{r}
+library(remotes)
+remotes::install_github("karthik/holepunch", force = TRUE)
+```
+write_compendium_description(package = "Your compendium name", 
+                             description = "Your compendium description")
+write_dockerfile(maintainer = "your_name") 
+generate_badge() 
+# copy and paste the code generate_badge produces 
+#into the file (e.g. README.md / a .Rmd) of your choice.
